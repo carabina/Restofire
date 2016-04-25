@@ -49,11 +49,11 @@ public protocol ResponseSerializable {
     
 }
 
-extension ResponseSerializable {
+extension ResponseSerializable where Self: Configurable {
     
-    /// `CustomJSONResponseSerializer`
+    /// `configuration.responseSerializer`
     public var responseSerializer: ResponseSerializer<Model, NSError> {
-        return AlamofireUtils.JSONResponseSerializer()
+        return configuration.responseSerializer
     }
-    
+     
 }

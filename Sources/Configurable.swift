@@ -42,16 +42,18 @@ import Foundation
 /// }
 /// ```
 public protocol Configurable {
+
+    associatedtype Model
     
     /// The Restofire configuration.
-    var configuration: Configuration { get }
+    var configuration: Configuration<Model> { get }
 
 }
 
-public extension Configurable where Self: Requestable {
+public extension Configurable {
     
     /// `Restofire.defaultConfiguration`
-    public var configuration: Configuration {
+    public var configuration: Configuration<Model> {
         return Restofire.defaultConfiguration
     }
     

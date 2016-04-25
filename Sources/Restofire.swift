@@ -9,7 +9,7 @@
 import Foundation
 
 /// The default configuration.
-public var defaultConfiguration = Configuration()
+public var defaultConfiguration = Configuration<AnyObject>()
 
 #if !os(watchOS)
 let defaultRequestEventuallyQueue: NSOperationQueue = {

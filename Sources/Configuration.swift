@@ -28,7 +28,7 @@ import Alamofire
 /// sessionConfiguration.HTTPAdditionalHeaders = Manager.defaultHTTPHeaders
 /// configuration.manager = Alamofire.Manager(configuration: sessionConfiguration)
 /// ```
-public struct Configuration {
+public struct Configuration<M> {
     
     /// The base URL. `nil` by default.
     public var baseURL: String!
@@ -50,6 +50,9 @@ public struct Configuration {
     
     /// The `Retry`.
     public var retry = Retry()
+    
+    /// The `ResponseSerializer`
+    public var responseSerializer: ResponseSerializer<M, NSError> = ResponseSerializers.JSONResponseSerializer()
     
     /// The logging, if enabled prints the debug textual representation of the 
     /// request when the response is recieved. `false` by default.

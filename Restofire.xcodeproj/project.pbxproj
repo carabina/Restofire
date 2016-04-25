@@ -41,6 +41,7 @@
 		35547F271CC0A32E0070F5D3 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35607D441CC09C98004902A5 /* Configurable.swift */; };
 		35547F281CC0A32E0070F5D3 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35607D441CC09C98004902A5 /* Configurable.swift */; };
 		35547F291CC0A32F0070F5D3 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35607D441CC09C98004902A5 /* Configurable.swift */; };
+		35738C821CCDFF42003B13A0 /* ResponseSerializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35738C811CCDFF42003B13A0 /* ResponseSerializers.swift */; };
 		35766C921CC553A900D532C9 /* RequestEventuallyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A0949E1CC3EA9400C58702 /* RequestEventuallyOperation.swift */; };
 		35766C931CC553A900D532C9 /* RequestEventuallyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A0949E1CC3EA9400C58702 /* RequestEventuallyOperation.swift */; };
 		35766C941CC553AA00D532C9 /* RequestEventuallyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A0949E1CC3EA9400C58702 /* RequestEventuallyOperation.swift */; };
@@ -160,6 +161,7 @@
 		3544ED2B1CBA40F700CDF3C9 /* StringService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringService+GETSpec.swift"; sourceTree = "<group>"; };
 		3544ED2C1CBA40F700CDF3C9 /* VoidService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VoidService+GETSpec.swift"; sourceTree = "<group>"; };
 		35607D441CC09C98004902A5 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		35738C811CCDFF42003B13A0 /* ResponseSerializers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerializers.swift; sourceTree = "<group>"; };
 		35856C651CC2838100ACBDB9 /* HTTPBinConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPBinConfigurable.swift; sourceTree = "<group>"; };
 		35856C661CC2838100ACBDB9 /* HTTPBinService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPBinService+GET.swift"; sourceTree = "<group>"; };
 		35856C711CC2884A00ACBDB9 /* HTTPBinBasicAuthenticationService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPBinBasicAuthenticationService+GET.swift"; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				35E6D36B1CCBEB90007ABC05 /* Retry.swift */,
 				352108C11CC29E99006D752E /* RequestOperation.swift */,
 				35A0949E1CC3EA9400C58702 /* RequestEventuallyOperation.swift */,
+				35738C811CCDFF42003B13A0 /* ResponseSerializers.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				35E6D3581CCBD5EF007ABC05 /* Authenticable.swift in Sources */,
 				35547F261CC0A32D0070F5D3 /* Configurable.swift in Sources */,
 				35A0949F1CC3EA9400C58702 /* RequestEventuallyOperation.swift in Sources */,
+				35738C821CCDFF42003B13A0 /* ResponseSerializers.swift in Sources */,
 				3596CBFD1CA3B5030089A03E /* Requestable.swift in Sources */,
 				35C385151CAE43ED003CE0BE /* Restofire.swift in Sources */,
 				35E6D3621CCBD75A007ABC05 /* Authentication.swift in Sources */,
